@@ -21,6 +21,7 @@ public class TestCalculator {
 	
 	@BeforeClass
 	public static void init(){
+		System.out.println("some");
 		calculator = new Calculator();
 		System.out.println("beforeClass");
 	}
